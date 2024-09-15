@@ -1,0 +1,40 @@
+:: Medical Bay Log Entry {"position":"800,0","size":"100,100"}
+<% 
+	$('html,body').scrollTop(0);
+    
+    if (visited("Medical Bay Log Entry") < 2) {
+    character.inventory.push("Medical Bay Log Entry");
+    console.log(character.inventory[character.inventory.length-1]+ " added to Inventory.");
+    }
+%>
+
+<h1 class="heading">Dr. Elara Voss</h1>
+
+<h1 class="heading">Chief Medical</h1> 
+
+<h1 class="heading">Officer</h1>
+
+<img src="./images/characters/drelaravoss.png">
+
+<div class="datapad">
+**Stardate: 2184.127**
+
+The situation aboard Epsilon-9 has deteriorated rapidly over the past 72 hours. What began as a series of unexplained malfunctions in the hydroponics bay has escalated into a full-scale emergency. I fear we may be facing an unknown pathogen, though its origin remains a mystery.
+
+Patient zero, Dr. Hendrik from botany, presented with symptoms unlike anything I've encountered in my 15 years of medicine. High fever, bioluminescent skin lesions, and alarming neurological changes. Within hours, five more crew members reported similar symptoms.
+
+I've ordered a station-wide quarantine, but with our life support systems behaving erratically, I'm not certain we can contain this. The quarantine chamber's seal is barely holding, and we're running low on broad-spectrum antibiotics and antiviral medications.
+
+Captain Reeves is considering a full evacuation, but if this is indeed a new pathogen, we risk spreading it beyond Epsilon-9. I've advised against it for now, but our options are limited.
+
+The medical bay is overflowing. Nurse Chen and Dr. Okafor are working around the clock, but fatigue is setting in. I've had to sedate three patients due to violent outbursts – another symptom we hadn't anticipated.
+I'm logging this in hopes that if... when help arrives, they'll have some information to work with. To whoever finds this: Proceed with extreme caution. This station may hold answers, but it also harbors great danger.
+If we don't make it, tell our families we tried our best. And please, don't let this spread beyond Epsilon-9.
+
+End log.
+</div>
+
+<% if (visited("Medical Bay Log Entry") <= 1) { %>
+[[Exit|Medical Bay]]
+<% } %>
+<br><br><br><br>

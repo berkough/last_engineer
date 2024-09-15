@@ -1,0 +1,36 @@
+:: Communications Log Entry {"position":"1000,100","size":"100,100"}
+<% 
+	$('html,body').scrollTop(0);
+    
+    if (visited("Communications Log Entry") < 2) {
+    character.inventory.push("Communications Log Entry");
+    console.log(character.inventory[character.inventory.length-1]+ " added to Inventory.");
+    }
+%>
+
+<h1 class="heading">Officer Jaden Kim</h1>
+<h1 class="heading">Communications</h1>
+<h1 class="heading">Specialist</h1>
+
+<img src="./images/characters/jadenkim.png">
+
+<div class="datapad">
+**Stardate: 2184.127**
+
+Time: 14:32
+It's been over 48 hours since the first alarms sounded, and I can't shake the feeling that we're running out of time. The comms array is still down, and I’m starting to lose hope that we’ll be able to reach anyone outside of Epsilon-9.
+We lost contact with the supply freighter that was scheduled to dock yesterday. I tried to send a distress signal, but the array is malfunctioning, and I can’t get a solid connection. I’ve been rerouting power from auxiliary systems, but it’s a temporary fix at best. The static is maddening, and the occasional bursts of interference make it hard to focus.
+
+Time: 18:45
+I just overheard Dr. Voss discussing the quarantine with the captain. There's a growing sense of panic among the crew. I can hear the fear in their voices, and it’s starting to seep into my own thoughts. We’re cut off, and if this pathogen is as dangerous as they say, we might be the last line of defense.
+I've sent out multiple automated distress signals, but I fear they're falling on deaf ears. The station’s systems are unreliable, and I can’t trust that any message I send will actually reach anyone.
+
+Time: 21:00
+I managed to get a partial connection with the outer relay, but it was only for a moment. I heard a voice—someone from the supply chain! They were asking if we were okay, but before I could respond, the signal dropped. I’m trying to re-establish contact, but the interference is too strong. I feel like I’m shouting into a void.
+
+Time: 23:15
+I’ve decided to try a manual override on the communications array. It's risky, but if I can get the antenna realigned, we might still have a chance to reach someone. I’ll need to work quickly; the crew is on edge, and I can feel the tension rising.
+
+If anyone finds this log, know that we fought to the end. We tried to reach out, to find help. I just hope it’s not too late.
+End log.
+</div>

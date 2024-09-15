@@ -1,0 +1,167 @@
+:: Character Creator {"position":"100,500","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="character">
+
+<div>
+
+<h1 class="heading">Define Your</h1>
+<h1 class="heading">Engineer</h1>
+
+<img src="./images/locations/charactercreation.png">
+
+In your dreams you imagine yourself floating down, stepping into the shoes of another you, the engineer navigating this desolate space station. Reflecting on your appearance and background, you begin to consider the following questions that shape your persona, and how others view you.
+<form id="charcreate">
+<fieldset>
+<legend>What is your gender?</legend>
+<input type="radio" id="male" name="Gender" value="Male" /><label for="male">Male</label>
+
+<input type="radio" id="female" name="Gender" value="Female" /><label for="female">Female</label>
+
+<input type="radio" id="non-binary" name="Gender" value="Non-Binary" /><label for="non-binary">Non-binary</label>
+
+<input type="radio" id="other" name="Gender" value="Other"><label for="other">Other</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>How old are you?</legend>
+<input type="radio" id="seasoned" name="Age" value="Nearing Retirement" /><label for="seasoned">A Seasoned Veteran (50s).</label>
+
+<input type="radio" id="fresh" name="Age" value="20 Something" /><label for="fresh">A Fresh Faced Newcomer (20s).</label>
+
+<input type="radio" id="inbetween" name="Age" value="Middle-Aged" /><label for="inbetween">Somewhere in between.</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>What is your engineer's build?</legend>
+<input type="radio" id="tall" name="Build" value="Tall and Lean" /><label for="tall">Tall and Lean</label>
+
+<input type="radio" id="stocky" name="Build" value="Stocky and Muscular" /><label for="stocky">Stocky and Muscular</label>
+
+<input type="radio" id="slight" name="Build" value="Slight and Agile" /><label for="slight">Slight and Agile</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>What color is your hair?</legend>
+<input type="radio" id="blond" name="Hair Color" value="Blond" /><label for="blond">Blond</label>
+
+<input type="radio" id="brown" name="Hair Color" value="Brown" /><label for="brown">Brown</label>
+
+<input type="radio" id="black" name="Hair Color" value="Black" /><label for="black">Black</label>
+
+<input type="radio" id="red" name="Hair Color" value="Red" /><label for="red">Red</label>
+
+<input type="radio" id="grey" name="Hair Color" value="Grey" /><label for="grey">Grey</label>
+
+<input type="radio" id="white" name="Hair Color" value="White" /><label for="white">White</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>How is your hair styled?</legend>
+<input type="radio" id="short" name="Hairstyle" value="Short and Practical" /><label for="short">Short and Practical<label>
+
+<input type="radio" id="medium" name="Hairstyle" value="Medium and Mop-like" /><label for="medium">Medium and Mop-like</label>
+
+<input type="radio" id="long" name="Hairstyle" value="Long and Tied-back" /><label for="long">Long and Tied-back</label>
+
+<input type="radio" id="shaved" name="Hairstyle" value="Shaved" /><label for="shaved">Shaved</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>What kind of clothing do you wear?</legend>
+<input type="radio" id="standard-issue" name="Clothing" value="Standard-Issue Jumpsuit" /><label for="standard-issue">A Standard-Issue Jumpsuit</label>
+
+<input type="radio" id="rugged" name="Clothing" value="Rugged Work Uniform" /><label for="rugged">A Rugged Work Uniform</label>
+
+<input type="radio" id="personalized" name="Clothing" value="Personalized Attire" /><label for="personalized">Something Personalized</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>Do you have any distinguishing features?</legend>
+<input type="radio" id="scars" name="Features" value="Scars" /><label for="scars">Scars</label>
+
+<input type="radio" id="tattoos" name="Features" value="Tattoos" /><label for="tattoos">Tattoos</label>
+
+<input type="radio" id="unique" name="Features" value="Unqiue Accessories" /><label for="unique">Unique Accessories</label>
+
+<input type="radio" id="nofeat" name="Features" value="None" /><label for="nofeat">None</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>What expressions or demeanor do you typically convey?</legend>
+
+<input type="radio" id="serious" name="Demeanor" value="Serious and Focused" /><label for="serious">Serious and Focused</label>
+
+<input type="radio" id="light-hearted" name="Demeanor" value="Light-hearted and Humorous" /><label for="light-hearted">Light-hearted and Humorous</label>
+
+<input type="radio" id="mix" name="Demeanor" value="Mix of Both" /><label for="mix">A Mix of Both</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>What tools or gadgets do you carry?</legend>
+
+<input type="radio" id="multitool" name="Gadgets" value="Multi-Tool" /><label for="multitool">Trusty Multi-Tool</label>
+
+<input type="radio" id="tablet" name="Gadgets" value="High-Tech Tablet" /><label for="tablet">High-Tech Tablet</label>
+
+<input type="radio" id="vintage" name="Gadgets" value="Vintage Tools" /><label for="vintage">Vintage Tools</label>
+
+</fieldset>
+<br>
+<fieldset>
+<legend>How do you cope with stress?</legend>
+
+<input type="radio" id="nervous" name="Stress Coping" value="Nervous Habit"><label for="nervous">Nervous Habit</label>
+
+<input type="radio" id="mantra" name="Stress Coping" value="Favorite Mantra"><label for="mantra">Favorite Mantra</label>
+
+<input type="radio" id="silent-focus" name="Stress Coping" value="Silent Focusing"><label for="silent-focus">Silent Focusing</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>What is your family heritage?</legend>
+<textarea id="heritage" onfocus="this.value=''" name="Family Story" rows="10" cols="24">Consider how your upbringing might have influenced your other attributes.</textarea>
+
+Example:
+
+<i>"My mother escaped the cult Hyugen on Titan and wound up dancing in a gentlemen's club called "The Tender Trap" in the city of Fairwind on Mars. My father was on a business trip from the Jovian system when they met... I never met my father, but the stories my mother told of him convinced me that I had to leave Mars and become someone important in the Jovian Oligarchy."</i>
+</fieldset>
+
+<button id="charsubmit" type="button">Submit</button> <button id="charreset" type="reset">Reset</button>
+</form>
+
+<p id="finalstats"></p>
+
+<p class="hide">Reflecting on these questions help you alleviate the stress of being alone and stranded. You head back to your ship.</p>
+
+<p class="hide">[[Your finally drift off to sleep. |Awakening]]</p>
+
+<p class="hide"><img src="./images/locations/ship.png"></p>
+
+</div>
+
+</div>
+
+<%
+
+$(function () {
+	$("#charsubmit").on("click", function () {
+    	window.character.stats = Object.fromEntries(new FormData(charcreate));
+        console.log("Character Stats:");
+        console.log(window.character.stats);
+        $("#charcreate").hide();
+        $(".hide").show();
+        $("#finalstats").html(function () {
+        	let html = `<h3 class="heading">Description</h3>`;
+        	for (let key in character.stats) {
+            	if (character.stats.hasOwnProperty(key)) {
+                	value = character.stats[key];
+                    html +=`<strong>${key}</strong>: ${value} <br>`;
+                }
+            }
+        	return html;
+        });
+    });
+});
+
+%>

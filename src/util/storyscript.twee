@@ -1,0 +1,12 @@
+:: StoryScript [script]
+//Character Variables
+window.story.debug = false;
+window.character = window.character || {};
+window.character.inventory = new Array();
+window.character.stats = {};
+
+//Checkpoints for every passage.
+$(window).on('showpassage:after', function (e)
+{
+    window.story.checkpoint(passage.name);
+});

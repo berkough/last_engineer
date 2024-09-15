@@ -1,0 +1,259 @@
+:: StoryStylesheet [stylesheet]
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400..900&family=Spicy+Rice&display=swap');
+
+/*Overrides*/
+tw-story {
+	max-width: 100%;
+  	line-height: 110%;
+}
+
+
+/*CUSTOM*/
+/*Colors*/
+:root{
+	--first: #00204a;
+  	--second: #005792;
+  	--third: #00bbf0;
+  	--fourth: #fbd44b;
+}
+
+
+/*Basic Setup*/
+body {
+	background-color: black;
+  	color: white;
+    font-family: "B612", san-serif;
+  	font-size: 1em;
+  	margin: 0;
+}
+
+h1 {
+	font-family: "B612 Mono", monospace;
+  	text-align: center;
+}
+
+#title {
+	font-family: "Spicy Rice", serif;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size: 4em;
+  	text-align: center;
+}
+
+@media (max-width: 485px) {
+  #title {
+  	font-size: 2em;
+  }
+  .heading {
+  	font-size: 2em;
+  }
+  #title-back {
+  	background-position: 50%;
+  }
+  #title-splash {
+  	margin-top: 0;
+  }
+}
+
+
+a {
+	color: var(--third);
+  	font-weight: 700;
+}
+
+a:visited {
+	color: var(--second);
+}
+
+a:hover {
+	color: var(--fourth);
+}
+
+img {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+ 	width: 50%;
+}
+
+div {
+	background-color: rgba(0, 0, 0, 0.75);
+  	padding: 5%;
+  	border-radius: 25px;
+}
+
+legend {
+	font: bold;
+}
+
+textarea {
+	background: #000;
+  	color: #fff;
+}
+
+#title-back {
+	background-image: url("./images/locations/title.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 720px;
+  	background-position: 25%;
+}
+
+#title-splash{
+	margin-top: 15%;
+  	background-color: rgba (0,0,0,0);
+}
+
+
+#menu {
+  border-radius: 0;
+  position: fixed;
+  top: 90%;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  margin: 0;
+  padding: 0.5em;
+  background-color: black;
+  color: white;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*Passage Backgrounds*/
+#prologue {
+	background-image: url("./images/locations/spacestation.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#atrium {
+	background-image: url("./images/locations/atrium.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#medicalbay {
+	background-image: url("./images/locations/medbay.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#hydroponics {
+	background-image: url("./images/locations/hydroponics.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#character {
+	background-image: url("./images/locations/charactercreation.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
+#awakening {
+	background-image: url("./images/locations/awakening.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#lifesupport {
+	background-image: url("./images/locations/lifesupport.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#escapepod {
+	background-image: url("./images/locations/escapepod.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#fuelstation {
+	background-image: url("./images/locations/fuelstation.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#communications {
+	background-image: url("./images/locations/communications.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#navigation {
+	background-image: url("./images/locations/navigation.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#reactor {
+	background-image: url("./images/locations/reactor.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.heading {
+	font-family: "Orbitron", sans-serif;
+}
+
+.datapad {
+	border: thick double grey ;
+  	text-align: left;
+  	font-family: "B612 Mono", monospace;
+  	background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
+  	margin: 0;
+  	padding: 2rem;
+  	color: white;
+  	text-shadow: 0 0 5px #C8C8C8;
+  		&::after {
+    		content: "";
+    		top: 0;
+    		left: 0;
+    		width: 100vw;
+    		background: repeating-linear-gradient(0deg, rgba(black, 0.15), rgba(black, 0.15) 1px,transparent 1px, transparent 2px);
+  }
+}
+
+.hide {
+	display: none;  
+}

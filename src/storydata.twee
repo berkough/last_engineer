@@ -1,0 +1,12 @@
+:: StoryTitle
+Last Engineer
+
+
+:: StoryData
+{
+  "ifid": "F0CB68D2-1175-4C61-82FD-A64A8AB24B72",
+  "format": "Snowman",
+  "format-version": "2.0.2",
+  "start": "Title",
+  "zoom": 1
+}

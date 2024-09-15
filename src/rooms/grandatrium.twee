@@ -1,0 +1,36 @@
+:: Grand Atrium {"position":"200,225","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="atrium">
+<%= window.story.render("Menu") %>
+<div>
+
+<h1 class="heading">The Grand</h1>
+
+<h1 class="heading">Atrium</h1>
+
+<img src="./images/locations/atrium.png">
+<% if (!hasVisited("Medical Bay","Hydroponics")) { %>
+Once a breathtaking focal point of the station, with its soaring ceilings and panoramic viewports, the center of the station now lies in eerie darkness. Shattered panels reveal the infinite void beyond, and debris floats lazily in the zero-gravity environment. Some areas remain pressurized while others aren't; the artificial gravity system is completely shot. The polished floors that once reflected the stars are now scuffed and stained, telling tales of hasty evacuations and desperate struggles.
+<% } %>
+
+To the east is [[the Hydoponics Lab|Hydroponics]].
+
+To the west is [[the Medical Bay|Medical Bay]].
+
+<% if (hasVisited("Medical Bay","Hydroponics")) { %>
+There wasn't much else in the Medical Bay to give you any clues as to what happened. 
+
+The cause of Epsilon-9's downfall remains a mystery. Perhaps it was a catastrophic collision with space debris, evidenced by the twisted metal and breached hull in certain sections. Or maybe a virulent outbreak swept through the station, <% if (character.inventory.includes("Medical Bay Log Entry")) { %>as was suggested by Dr. Voss, <% } %>explaining the hastily barricaded doors and abandoned personal effects. The possibility of a reactor meltdown lingers in the air, with certain areas showing signs of extreme heat damage and radiation warnings flashing on malfunctioning displays.
+
+Whatever the cause, the once-proud Epsilon-9 now drifts as a ghost ship, its corridors echoing with the memory of its former inhabitants and the whispers of the disaster that befell them. It is in this haunting environment that you find yourself, the sole survivor. The station was supposed to only be a short respite an your way back to Europa after returning from a mission on Ganymede, you didn't think you'd find the station in this condition and were counting on refueling your cruiser. Now you're faced with the daunting task of escaping.
+
+You decide that maybe it's best for you to rest after a long journey, you go back to your cruiser, lay down and a wave of uncertainty and existential dread washes over you. You being to think about who you are as you [[close your eyes |Character Creator]].
+<% } else { %>
+You think to yourself, "maybe I should look around and gather my bearings..."
+<% } %>
+
+</div>
+
+</div>
+<br><br><br>

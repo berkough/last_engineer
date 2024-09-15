@@ -1,0 +1,24 @@
+:: Medical Bay {"position":"100,300","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="medicalbay">
+
+<div>
+
+<h1 class="heading">Medical Bay</h1>
+
+<img src="./images/locations/medbay.png">
+
+State-of-the-art equipment lies dormant, once meticulously sterilized with chemcial solvents and cleaners, now clean from the vacuum of space. Overturned gurneys float with scattered supplies that hint at a frantic rush to evacuate patients. The quarantine chamber's seal has been compromised, its warning lights blinking feebly in the gloom.
+
+<% if (!hasVisited("Medical Bay Log Entry")) { %>
+
+You see a data pad and wonder if it still has any battery left. [[Pick it up|Medical Bay Log Entry]].
+
+<% } %>
+
+Back to the [[Grand Atrium]].
+
+</div>
+
+</div>

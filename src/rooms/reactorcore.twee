@@ -1,0 +1,34 @@
+:: Reactor Core {"position":"700,200","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="reactor">
+<%= window.story.render("Menu") %>
+<div>
+
+<h1 class="heading">Reactor Core</h1>
+
+Next, you head to the Reactor Core, passing through areas that show signs of extreme heat damage. The heart of the station, it provides power to all other systems. The AI in charge here is Zephyr, known for his no-nonsense attitude.
+
+"You're late," Zephyr barks as you enter the reactor chamber.
+
+<img src="./images/characters/zephyr.png">
+
+"Nice to see you too, Zephyr," you reply dryly. "What's the situation?"
+
+"The reactor's coolant system is compromised. You'll need to manually vent the excess heat and replace the damaged coolant lines."
+
+Puzzle: The player must navigate a maze-like series of coolant pipes, redirecting the flow to prevent overheating. This is done by inputting directional commands (north, south, east, west) to move through the pipe system.
+
+You get to work, your hands moving with practiced precision. Zephyr's curt instructions guide you through the process. The reactor roars back to life, and the station's lights flicker on, illuminating the dark corridors and revealing more of the devastation around you.
+
+"Good job," Zephyr grumbles. "Now get moving. Time's running out."
+
+
+Epilogue: Reactor Core
+As you work on the reactor, a sudden surge of energy pulses through the system. Alarms blare, and Zephyr's voice becomes frantic. "Warning! Reactor core unstable!" You scramble to contain the situation, but it's too late. The reactor core explodes, and in an instant, your world is consumed by a blinding light. Your final thoughts are of the station and the mysteries that will remain unsolved.
+
+[[Back to your ship.|Awakening]]
+
+</div>
+
+</div>

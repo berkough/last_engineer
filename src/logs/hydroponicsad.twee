@@ -1,0 +1,28 @@
+:: Hydroponics Ad {"position":"800,100","size":"100,100"}
+<% 
+	$('html,body').scrollTop(0);
+    
+    if (visited("Hydroponics Ad") < 2) {
+    character.inventory.push("Hydroponics Ad");
+    console.log(character.inventory[character.inventory.length-1]+ " added to Inventory.");
+    }
+%>
+
+<div>
+<h1 class="heading">Galactic News Network</h1>
+
+<i>"Heuristics Corporation: The Backbone of Jovian Space Operations"</i>
+
+<img src="./images/locations/hydroponicsterminal.png">
+
+<div class="datapad">
+In the ever-expanding realm of space exploration, Heuristics Corporation has solidified its position as the leading manufacturer of computer systems for space stations throughout the Jovian system. With a reputation for cutting-edge technology and reliable performance, Heuristics has become synonymous with innovation in interstellar operations.
+
+Among their most notable products is the Iris audible computer interface, which has gained widespread acclaim for its user-friendly design and advanced AI capabilities. Iris not only enhances operational efficiency aboard space stations but also provides crew members with intuitive support and real-time data analysis.
+
+As the backbone of critical systems on installations across the solar system, Heuristics Corporation continues to push the boundaries of technology, ensuring that space stations are equipped with the most reliable and sophisticated tools for exploration and research. With our commitment to excellence, Heuristics remains at the forefront of industry!
+</div>
+
+[[Exit|Hydroponics]]
+
+</div>

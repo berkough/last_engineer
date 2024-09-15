@@ -1,0 +1,31 @@
+:: Hydroponics {"position":"300,300","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="hydroponics">
+
+<div>
+
+<h1 class="heading">Hydroponics</h1> 
+<h1 class="heading">Lab</h1>
+
+<img src="./images/locations/hydroponics.png">
+
+Previously a lush oasis of green amidst the sterile environment of space, is now a graveyard of withered plants. Brown leaves crumble at your touch, and the air (if you could smell it through your space suit) hangs heavy with the scent of decay. A meter in the bottom right of the HUD in your helmet reads elevated levels of hydrogen sulfide.
+
+The intricate system of pipes and nutrient delivery mechanisms lies dormant, their contents long since evaporated or frozen.
+
+<% if (visited("Hydroponics") < 2 || character.inventory.includes("Hydroponics Ad")) { %>
+
+There doesn't appear to be much here. You can always come back.
+
+<% } else { %>
+
+You didn't notice it before, but this time you see that off to the right side of the room there is a [[broken terminal displaying an advertisement|Hydroponics Ad]].
+
+<% } %>
+
+Return to the [[Grand Atrium]].
+
+</div>
+
+</div>

@@ -1,0 +1,35 @@
+:: Escape Pod {"position":"600,500","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="escapepod">
+<%= window.story.render("Menu") %>
+<div>
+
+<h1 class="heading">Escape Pod</h1> 
+<h1 class="heading">Docking</h1>
+<h1 class="heading">Mechanism</h1>
+
+Finally, you reach the Escape Pod Docking Mechanism, passing through the medical bay with its eerie reminders of a hasty evacuation. The AI here, Astra, is the most advanced, designed to handle complex docking procedures.
+
+"Welcome," Astra says, her voice calm and composed. "The docking clamps are jammed, and the pod's launch sequence is corrupted. You'll need to manually release the clamps and reprogram the launch sequence."
+
+<img src="./images/characters/astra.png">
+
+You work quickly, your hands moving with a sense of urgency. Astra's precise instructions guide you through the process. With a final click, the clamps release, and the pod's systems come online.
+
+Puzzle: The player must complete a sequence of docking procedures in the correct order. This involves memorizing and inputting a series of commands in a specific sequence, similar to the game "Simon Says."
+
+"Launch sequence initiated," Astra announces. "Good luck."
+
+Epilogue: Escape Pod Docking Mechanism
+You climb into the escape pod, your body aching from the day's efforts. As the pod's door seals shut, you take a moment to reflect on the journey through the ghost ship that Epsilon-9 has become. You've been alone, but the AIs have been your companions, each with their unique personalities and quirks.
+
+"Thank you, everyone," you whisper, knowing they can't hear you.
+The pod's engines roar to life, and you feel the familiar pull of acceleration as you are propelled away from Epsilon-9. You watch through the viewport as the station grows smaller, a silent monument to the resilience of the human spirit and a haunting reminder of the mysteries and dangers of space.
+As you drift into the vastness of space, you know you aren't truly alone. The memories of your AI companions and the enigma of Epsilon-9's fate will stay with you, a testament to the bonds forged and the questions raised in the most unlikely of places.
+
+[[Back to your ship.|Awakening]]
+
+</div>
+
+</div>

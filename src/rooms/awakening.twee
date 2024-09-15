@@ -1,0 +1,60 @@
+:: Awakening {"position":"400,100","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="awakening">
+<%= window.story.render("Menu") %>
+<div>
+
+<h1 class="heading">
+<% if (visited("Awakening") < 2) { %> Awakening <% } else { %> Your Ship <% } %>
+</h1>
+
+<img src="./images/locations/awakening.png">
+
+<% if (visited("Awakening") > 10) { %>
+"You sure are doing a lot of walking around! Haven't you figured it out yet?" Iris bemoans, and you can feel her judgement.
+<% } %>
+
+<% if (visited("Awakening") < 2) { %> 
+The most unrestful sleep you've ever had. It's like no time has gone by at all.
+
+You awaken to the sound of alarms blaring through your helmet, the cacophony a stark contrast to the eerie silence that permeates the rest of the station. Disoriented, you struggle to remember how you got here. The last thing you recall is docking your cruiser after returning from Ganymede, expecting a routine refueling stop. Instead, you found Epsilon-9 in this haunting state of disrepair.
+
+Surely you've only been out for a few mintues, but checking the clock, it has been over 8 hours.
+
+"System reboot complete," a calm, female voice announces. "Good morning."
+
+<% if (character.inventory.includes("Hydroponics Ad")) { %>"Morning... Iris," you mutter, recognizing the voice of the station's central audible computer interface. The Iris interface is common on all ships and stations manufactured by Heuristics Corporation on Europa.<% } else { %> "My Name is Iris, I'm the ship's general purpose audio assistant. <% } %>
+
+Docking with the station must have triggered a failsafe startup of some of the station's systems. "What happened here?" You ask.
+
+"There was a catastrophic failure in multiple systems. The station is running on emergency power. You are the only life form I detect."
+
+Your heart sinks as the gravity of the situation hits you. You've always known the risks of space travel, but you never imagined finding yourself in such a dire predicament. Taking a deep breath, you focus on the task at hand.
+
+"I need to get off this station," you say, your voice steady despite the foreboding reality.
+
+"Affirmative," Iris replies. "However, your cruiser's fuel cells are depleted, and escape pod systems for the station are offline. You will need to repair the station's mission-critical systems. Restoring the life support for the intact and pressurized areas of the station will afford you the opportunity to repair all, or most, of the necessary sytems on the station. However, going straight for an escape pod is another option. My suggestion is to approach the station's systems in this order:"
+
+<% } else { %>
+"Where would you like to go?" Iris asks inquisitively.
+<% } %>
+
+[[Life Support System]]
+
+[[Reactor Core]]
+
+[[Navigation Control]]
+
+[[Communications Array]]
+
+[[Fuel Station and Pump Room|Fuel Station]]
+
+[[Escape Pod Docking Mechanism|Escape Pod]]
+
+
+"The choice is yours."
+
+</div>
+
+</div>

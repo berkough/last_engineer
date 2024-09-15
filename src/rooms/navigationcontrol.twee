@@ -1,0 +1,32 @@
+:: Navigation Control {"position":"700,400","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="communications">
+<%= window.story.render("Menu") %>
+<div>
+
+<h1 class="heading">Navigation</h1> 
+<h1 class="heading">Control</h1>
+
+With power restored, you make your way to Navigation Control, passing through the once-grand atrium, now a haunting reminder of the station's former glory. Here, the AI Orion awaits you, his holographic form resembling an ancient star map.
+
+"Greetings," Orion says, his voice echoing like distant stars. "We must realign the station's thrusters to ensure a safe trajectory for the escape pod."
+
+<img src="./images/characters/orion.png">
+
+"Understood," you reply, accessing the control panel.
+
+Orion guides you through the complex calculations and adjustments needed to realign the thrusters. The station shudders as the thrusters fire, correcting its course.
+
+Puzzle: The player must solve a series of astronomical calculations to correctly align the station's thrusters. This involves inputting coordinates and solving math problems related to celestial mechanics.
+
+"Excellent work," Orion says, his form shimmering. "The path is clear."
+
+Epilogue: Navigation Control
+As you work with Orion, you realize that you can use the station's thrusters to set Epsilon-9 on a trajectory toward an inhabited moon in the Jovian system. You input the coordinates and fire the thrusters, propelling the station toward potential rescue. The journey will take time, but with the station's systems gradually coming back online, you have hope. You settle into a routine, maintaining the course and preparing for the day when you will reach civilization.
+
+[[Back to your ship.|Awakening]]
+
+</div>
+
+</div>

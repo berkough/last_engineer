@@ -1,0 +1,40 @@
+:: Fuel Station {"position":"600,300","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="fuelstation">
+<%= window.story.render("Menu") %>
+<div>
+
+<h1 class="heading">Fuel Station</h1> 
+<h1 class="heading">and</h1>
+<h1 class="heading">Pump Room</h1>
+
+With the communications array restored, you turn your attention to the Fuel Station and Pump Room. Your cruiser needs fuel, and without it, you won't get far. The AI in charge here is Piston, a gruff and straightforward system designed to manage fuel distribution.
+
+"Finally decided to pay me a visit, huh?" Piston's voice crackles through the intercom as you enter the pump room.
+
+<img src="./images/characters/piston.png">
+
+"Yeah, Piston. What's the status?" you ask, surveying the room. Fuel lines are tangled, and the main pump control panel is flickering erratically.
+
+"The fuel lines are clogged, and the main pump is offline. You'll need to clear the lines and reset the pump controls manually."
+
+Puzzle: The player must balance fuel mixture ratios by adjusting virtual dials and switches. The correct combination must be found to create a stable, high-efficiency fuel.
+
+You roll up your sleeves and get to work, following Piston's terse instructions. The fuel lines are a mess, but with some effort, you manage to clear the blockages. The pump control panel proves more challenging, but after some adjustments and a few choice words, you bring it back online.
+
+"Fuel flow restored," Piston announces. "You're good to go."
+
+"Thanks, Piston," you reply, feeling a sense of relief as the fuel begins to flow into your cruiser.
+
+"Don't mention it. Just get out of here in one piece."
+
+
+Epilogue: Fuel Station and Pump Room
+With fueling operations restored, you refuel your cruiser and prepare for departure. The station's AIs bid you farewell, each in their unique way. You plot a course to the nearest inhabited moon or a different space station, knowing that you have the fuel to make the journey. As you leave Epsilon-9 behind, you carry with you the memories of the station and the hope that you will find answers and safety at your destination.
+
+[[Back to your ship.|Awakening]]
+
+</div>
+
+</div>

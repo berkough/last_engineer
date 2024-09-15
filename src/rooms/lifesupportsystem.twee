@@ -1,0 +1,36 @@
+:: Life Support System {"position":"500,200","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="lifesupport">
+<%= window.story.render("Menu") %>
+<div>
+
+<h1 class="heading">Life Support</h1> 
+<h1 class="heading">System</h1>
+
+You make your way to the Life Support System, carefully navigating through corridors where the artificial gravity has failed. Debris floats past you, remnants of the station's former life. The LSS is responsible for maintaining breathable air, temperature control, and water recycling. As you approach the LSS control panel, the screen flickers to life, displaying the face of Luna, the AI managing the system.
+
+<img src="./images/characters/luna.png">
+
+"Hello," Luna greets you with a warm smile. "I've been waiting for someone to come."
+
+"Luna, I need to get the LSS back online," you say, already prying open a panel to access the wiring.
+
+"Of course. But first, you'll need to replace the damaged oxygen filters and recalibrate the CO2 scrubbers. I've highlighted the necessary components on your HUD."
+
+Puzzle: The player must balance oxygen levels, CO2 scrubbing, and temperature control. They have a limited number of power units to allocate between these three systems. The correct combination must be found through trial and error, with hints provided by Luna.
+
+You nod and set to work. Luna provides guidance, her soothing voice a stark contrast to the dire situation. After what feels like hours, the LSS hums back to life, and you feel a rush of fresh air fill the corridor.
+
+"Thank you, Luna," you say, wiping sweat from your brow.
+
+"Stay safe," Luna replies, her image fading from the screen.
+
+Epilogue: Life Support System
+With the life support system restored, the station becomes a more habitable environment. You find yourself contemplating the possibility of staying on Epsilon-9, waiting for rescue or perhaps even trying to rebuild the station. The solitude is daunting, but the station's AIs keep you company, each with their unique personalities. You settle into a routine, maintaining the systems and exploring the station's mysteries, hoping that one day, help will arrive.
+
+[[Back to your ship.|Awakening]]
+
+</div>
+
+</div>

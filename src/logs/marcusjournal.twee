@@ -1,0 +1,38 @@
+:: Journal of Marcus {"position":"900,200","size":"100,100"}
+<% 
+	$('html,body').scrollTop(0);
+    
+    if (visited("Journal of Marcus") < 2) {
+    character.inventory.push("Journal of Marcus");
+    console.log(character.inventory[character.inventory.length-1]+ " added to Inventory.");
+    }
+%>
+
+<h1 class="heading">Personal Journal</h1>
+<h1 class="heading">of Marcus Hale</h1>
+
+*Freelance Correspondent*
+
+<div class="datapad">
+Stardate: 2184.130
+
+I've always known that journalism would take me to the edges of known reality, but nothing could have prepared me for the unfolding mystery of Epsilon-9. The reports coming in are fragmented and sparse, but they paint a picture of a disaster that defies comprehension.
+
+The station, once a beacon of scientific advancement and interstellar trade, now drifts as a ghost ship. The initial reports suggested a catastrophic systems failure, but whispers of something far more sinister have reached my ears. An interdimensional being, phasing through the very fabric of the station, making contact with the crew—it's the stuff of science fiction, yet here we are.
+
+I've managed to get my hands on a few logs from the station. Dr. Elara Voss's entry is particularly haunting. Her words convey a sense of desperation and duty, trying to contain what she believed to be a pathogen. But it's Captain Amelia Reeves's log that chills me to the core. An entity beyond our understanding, intelligent and hostile. The captain's warning is clear: stay away.
+
+As a journalist, my instinct is to get closer, to uncover the truth. But this time, I'm torn. The risk is immense, not just to myself but to anyone who might come into contact with this entity. The captain's plea to seal off the sector resonates with me. This isn't just a story—it's a potential threat to all of us.
+
+I can't help but think of the engineer, Alex Mercer, who was returning from Ganymede. Did he make it back to the station? And if so, what did he find? The logs suggest he might have been the last hope for Epsilon-9, navigating the derelict corridors, interacting with the station's AIs, each with their own quirks and personalities.
+
+The thought of the engineer alone, piecing together the mystery of Epsilon-9, is both inspiring and terrifying. What choices did he make? Did he attempt to restore the systems, or did he find another way to survive? The possibilities are endless, and the answers remain elusive.
+
+As I sit here, pen in hand, I feel the weight of the unknown pressing down on me. This story is far from over, and I can't shake the feeling that the implications reach far beyond a single space station. The universe is vast, and we've barely scratched the surface of its mysteries.
+
+For now, I will continue to gather information, piecing together the fragments of this unfolding enigma. But I must be cautious. The allure of the unknown is powerful, but so too is the danger it presents.
+
+May we find the answers we seek, and may those who ventured into the unknown find peace.
+
+End journal entry.
+</div>

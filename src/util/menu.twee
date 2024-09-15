@@ -1,0 +1,32 @@
+:: Menu {"position":"300,0","size":"100,100"}
+<button id="invBtn">Inventory</button>
+
+<div id="invPop" class="modal">
+    <div class="modal-content">
+        <span class="close"><button>X</button></span>
+        <%= window.story.render("Inventory") %>
+    </div>
+</div>
+
+<%
+
+//Inventory
+$(function(){
+
+        // When the user clicks the button, open the modal
+        $("#invBtn").click(function() {
+              $("#invPop").show();
+          		console.log("Click!");
+                
+        });
+
+        // When the user clicks on <span> (x), close the modal
+        $(".close").click(function() {
+              $("#invPop").hide();
+        });
+
+});
+
+
+
+%>

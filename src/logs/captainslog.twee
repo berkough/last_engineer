@@ -1,0 +1,55 @@
+:: Captains Log {"position":"1000,0","size":"100,100"}
+<% 
+	$('html,body').scrollTop(0);
+    
+    if (visited("Captains Log") < 2) {
+    character.inventory.push("Captains Log");
+    console.log(character.inventory[character.inventory.length-1]+ " added to Inventory.");
+    }
+%>
+
+<h1 class="heading">Captain</h1>
+<h1 class="heading">Amelia Reeves</h1>
+<h1 class="heading">Commanding</h1>
+<h1 class="heading">Officer</h1>
+
+<img src="./images/characters/ameliareeves.png">
+
+<div class="datapad">
+**Stardate: 2184.128**
+
+Encryption Level: Omega
+
+Access: Senior Command Only
+
+I'm recording this log with the hope that it will serve as a warning to others. What I'm about to disclose is beyond our current understanding of physics and reality. I fear that by the time this log is discovered, it may be too late for the crew of Epsilon-9, but perhaps it can save others.
+
+Three days ago, at approximately 0300 hours, our sensors detected an anomaly in the hydroponics bay. Initially, we believed it to be a simple equipment malfunction. Dr. Hendrik, our lead botanist, went to investigate. What happened next defies explanation.
+
+The anomaly was not a malfunction, but a tear in the fabric of our reality. Through this tear emerged what I can only describe as an interdimensional being. It phased through our hull as if it were nothing more than a hologram, making direct contact with Dr. Hendrik.
+
+The effect was immediate and catastrophic. Dr. Hendrik's body began to change at the cellular level. Within hours, other crew members started exhibiting similar symptoms. Dr. Voss is doing her best to contain the situation, but we're fighting an enemy we don't understand.
+
+This entity seems to exist outside our laws of physics. It can move through solid matter at will, and our weapons have no effect. Worse, it appears to be intelligent and actively hostile. It's as if it's studying us, learning our weaknesses.
+
+I've ordered a complete lockdown of the station, but I fear it's futile. This being doesn't adhere to our concept of physical barriers. We've tried to communicate with it, to understand its motives, but all attempts have failed.
+
+To any Starfleet vessel that receives this: Do not approach Epsilon-9. The risk of this entity spreading beyond our station is too great. If possible, find a way to seal off this entire sector of space.
+
+I take full responsibility for the fate of my crew. We knew the risks of deep space exploration, but nothing could have prepared us for this. May whatever gods exist have mercy on our souls.
+
+This is Captain Amelia Reeves, possibly the last commanding officer of Epsilon-9, signing off.
+
+End log.
+
+[A personal note is appended to the log]
+
+To my family,
+
+I'm sorry. I did everything I could. Know that I love you, and that our sacrifice here might save countless others. Be brave, be kind, and never stop exploring the stars. Just... be careful out there.
+
+Always,
+
+Amelia
+
+</div>

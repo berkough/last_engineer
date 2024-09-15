@@ -1,0 +1,32 @@
+:: Communications Array {"position":"500,400","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="communications">
+<%= window.story.render("Menu") %>
+<div>
+
+<h1 class="heading">Communications</h1> 
+<h1 class="heading">Array</h1>
+
+Your next stop is the Communications Array. You pass through the hydroponics bay, the scent of decay a grim reminder of the time that has passed. The AI here, Echo, has a playful personality, often mimicking the voices of the crew.
+
+"Hey, you!" Echo greets you in the voice of your old friend, Mark. "Miss me?"
+"Echo, cut the chatter," you reply, though you can't help but smile. "What's the damage?"
+
+<img src="./images/characters/echo.png">
+
+"The antenna array is misaligned, and the signal booster is fried. You'll need to replace the booster and manually realign the antenna."
+
+You climb the array tower, your movements careful and deliberate in the inconsistent gravity. Echo's playful banter keeps you company, easing the tension. After a few tense moments, the array is back online.
+
+"Great job, buddy!" Echo cheers. "Now you can call for help if you need it."
+
+
+Epilogue: Communications Array
+With the communications array restored, you send out a distress signal. Hours pass, and just as hope begins to wane, a response crackles through the speakers. A distant freighter hauling supplies between locations has picked up your signal. They decide to take a detour to come save you. Relief washes over you as you prepare for their arrival, knowing that soon you will be rescued and the mysteries of Epsilon-9 will be shared with the wider universe.
+
+[[Back to your ship.|Awakening]]
+
+</div>
+
+</div>

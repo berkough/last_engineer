@@ -1,0 +1,73 @@
+:: Title {"position":"100,0","size":"100,100"}
+<% 
+
+$('html,body').scrollTop(0); 
+
+%>
+
+<div id="title-back">
+
+<div id="title-splash">
+
+<h1 id="title">The Last Engineer</h1>
+
+<p style="text-align:center;">by Mathew Kane<br>
+
+<div style="text-align:center;width:100px;margin-left:auto;margin-right:auto;">
+[[Play|Prologue]]
+
+</div>
+</p>
+<br><br><br>
+
+<% if (story.debug) { %>
+
+[[Menu]]
+
+[[Inventory]]
+
+[[Prologue]]
+
+[[Grand Atrium]]
+
+[[Medical Bay]]
+
+[[Hydroponics]]
+
+[[Medical Bay Log Entry]]
+
+[[Hydroponics Ad]]
+
+[[Character Creator]]
+
+[[Credits]]
+
+[[Awakening]]
+
+[[Life Support System]]
+
+[[Reactor Core]]
+
+[[Fuel Station]]
+
+[[Communications Array]]
+
+[[Communications Log Entry]]
+
+[[Navigation Control]]
+
+[[Escape Pod]]
+
+[[Journal of Marcus]]
+
+[[News Article]]
+
+[[Captains Log]]
+
+[[The End]]
+
+<% } %>
+
+</div>
+
+</div>

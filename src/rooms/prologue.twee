@@ -1,0 +1,23 @@
+:: Prologue {"position":"200,100","size":"100,100"}
+<% $('html,body').scrollTop(0); %>
+
+<div id="prologue">
+<div>
+
+<h1 class="heading">Outside the</h1>
+
+<h1 class="heading">Station</h1>
+
+<img src="./images/locations/spacestation.png">
+
+The vastness of space stretches endlessly in every direction, a silent witness to the drama that befell the derelict space station, **Epsilon-9**. Once a bustling hub of scientific research and interstellar trade, Epsilon-9 now floats silently, its corridors dark and lifeless. Only flickering lights and the occasional hum of machinery, barely clinging to functionality.
+
+Amazingly the automatic docking system still seems to be working. Your ship was able to make it to port without much trouble. Senors do not detect any gravity. You exit your ship in full spacewalk gear.
+
+As you drift through the station's corridors, the contrast between its former glory and current state is stark; sharp memories pierce your recollection of the only other time you've been here, brief flashes of image and sound pulsing in your mind. You have a hard time believing this is the same place.
+
+Heading straight from the Docks, you find yourself in [[the Grand attrium|Grand Atrium]].
+<br><br><br><br>
+</div>
+
+</div>

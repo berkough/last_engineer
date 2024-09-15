@@ -1,0 +1,12 @@
+:: Inventory {"position":"500,0","size":"100,100"}
+<%
+$(function () {
+	let html = `<h3 class="heading">Inventory</h3>`;
+        $("#Inventory").html(function () {
+        	for (const item of character.inventory) {
+                 html +=`${item}<br>`;
+                }
+            });
+    return html;
+});
+%>

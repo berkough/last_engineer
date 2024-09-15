@@ -1,0 +1,38 @@
+:: News Article {"position":"1000,200","size":"100,100"}
+<% 
+	$('html,body').scrollTop(0);
+    
+    if (visited("News Article") < 2) {
+    character.inventory.push("News Article");
+    console.log(character.inventory[character.inventory.length-1]+ " added to Inventory.");
+    }
+%>
+
+<div style="text-align:justify;">
+"Insurance Titan MTKU Ltd. Faces Unprecedented Claim in Wake of Epsilon-9 Disaster"
+
+By Marcus Hale, Special Correspondent
+</div>
+<img class="datapad" style="margin-left:auto;margin-right:auto;" src="./images/characters/marcus.png">
+
+<div class="datapad">
+**Stardate: 2184.135**
+
+In a twist that could reshape the landscape of interstellar insurance, MTK Ultra Limited, Private Corporation (MTKU Ltd., PC), the legal powerhouse behind the Stanton Fields Insurance and Surety Company, finds itself at the center of what may be the most complex claim in cosmic history.
+MTKU Ltd., a subsidiary of the enigmatic Free People's Land Holding and Trust, has long been known for its aggressive tactics in minimizing payouts. Founded by the shrewd Marquis Titus Kato, the company has built its reputation on a foundation of legal maneuvering and controversial claim adjustments.
+
+At the heart of this unfolding drama is Kai Zarrison, a veteran fields adjuster whose unorthodox methods have padded MTKU's bottom line for over a decade. Sources close to the company reveal that Zarrison was personally handpicked by Kato himself, a decision that has paid dividends—until now.
+The claim in question revolves around the mysterious fate of Epsilon-9, a state-of-the-art space station that went dark under circumstances that can only be described as bizarre. Reports suggest that the station fell victim to what some are calling an "interdimensional incident," a concept that pushes the boundaries of current scientific understanding.
+
+"This isn't your standard meteor strike or equipment failure," says Dr. Elara Voss, a former chief medical officer who managed to escape Epsilon-9 before communications were lost. "We're dealing with something that defies explanation. How do you quantify that in insurance terms?"
+
+The claim, filed by the station's parent company, cites "total loss due to unforeseen interdimensional interference," a clause that has never before been tested in any court system, terrestrial or extraterrestrial.
+
+Zarrison, known for his ability to find loopholes and minimize payouts, now faces the challenge of his career. Industry insiders speculate that this claim could set a precedent for future space exploration insurance policies, potentially opening the floodgates for similar claims across the galaxy.
+
+"If MTKU honors this claim in full, it could bankrupt the company," says financial analyst Zara Chen. "But if they fight it, they risk a public relations nightmare and potential legal battles that could span decades."
+
+As the story develops, all eyes are on Kai Zarrison and MTKU Ltd. Will they maintain their hardline stance, or will the unprecedented nature of the Epsilon-9 incident force a reevaluation of their entire business model?
+
+One thing is certain: this insurance claim is poised to make history, potentially changing the face of interstellar commerce and exploration for generations to come. As we await further developments, the galaxy watches with bated breath, wondering what secrets Epsilon-9 still holds, and what implications they may have for us all.
+</div>
